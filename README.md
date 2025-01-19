@@ -1,7 +1,50 @@
-For my project I choose the first option of making a game in a game engine. I was not familiar with any of the engines you suggested. After few research on this list I decided to use unity. I downloaded unity and spent several hours on understanding its features and reading about it. Watch several YouTube videos too, to understand how the engine works and the features it provides.
-One of the simple ideas I got on what game to make was flappy birds. I made this entirely from scratch. First time using a game engine and designing a game, I was impressed. I took random pictures from the internet for the bird and pipe. 
-Watched hours of YouTube videos on how to do this. I understood the gravity effect, friction effect, adding velocity and what not. After familiarizing myself with Unity's interface and basic functionalities, I began by creating the essential components of the game. I utilized Unity's sprite renderer to import and display the images of the bird and pipes that I had gathered from the internet. These images were used as sprites within the game to represent the characters and obstacles.
-To ensure collision detection and interaction between game elements, I employed Unity's circle collider component for the bird and pipe game objects. This allowed me to define the areas where collisions would be detected accurately. The circle collider was chosen for its suitability in detecting collisions with the circular shapes of the bird and pipes. (I know my image wasn’t quite circular)
-For implementing the game logic and behaviors, I utilized C# scripting within unity (it uses visual studio 2022). Through scripting, I established the mechanics of the game, including gravity effects on the bird, its ability to jump upon pressing the space bar, and the spawning and movement of pipes.
-The script responsible for the spawning of pipes managed their generation at specific intervals or positions within the game world. I wrote a script for random pipes size generation, but I was very random as shown in my video. I wanted to solve this problem but due to time I think I have not been able to achieve all I had in mind. I actually wanted to add another script for score and end game, if had enough time would have definitely worked on it. I would have wanted to also add a audio source for sound effects like collision sound and wings sound
-Throughout the development process, I encountered challenges that required problem-solving skills and a deeper understanding of Unity's documentation. Debugging scripts, optimizing performance, and refining the gameplay experience were continuous tasks that contributed to the iterative development of the game.
+# Flappy Birds Unity Game 🎮
+
+Welcome to my Flappy Birds game project! This is my first venture into game development using Unity, where I designed and built the entire game from scratch. Despite being a beginner with game engines, I explored Unity's features, tackled challenges, and learned a lot throughout the process.
+
+## 🎯 Project Overview
+For this project, I chose to create a game using Unity, one of the most popular game engines. After thorough research and hours of YouTube tutorials, I decided on the classic game **Flappy Birds** as my inspiration. This project helped me understand game development fundamentals and gain hands-on experience with Unity.
+
+### 🛠 Features Implemented
+1. **Game Physics**: 
+   - Gravity effects to simulate the bird's fall.
+   - Velocity adjustments for the bird's jump mechanic when the spacebar is pressed.
+   - Friction and collision detection for a realistic gameplay experience.
+2. **Sprite Renderer**:
+   - Imported and displayed images for the bird and pipes using Unity's sprite renderer.
+   - Utilized online resources for images to represent characters and obstacles.
+3. **Collision Detection**:
+   - Applied circle colliders to the bird and pipes for accurate collision interactions.
+4. **Pipe Spawning**:
+   - Created scripts to randomly generate pipes at varying sizes and intervals.
+5. **C# Scripting**:
+   - Built game logic, such as player controls and obstacle movements, using Unity's integration with Visual Studio 2022.
+
+### 🚧 Challenges and Learnings
+- Debugging scripts and optimizing game performance.
+- Experimenting with Unity's gravity and velocity features to achieve smooth gameplay.
+- Familiarizing myself with Unity's interface and documentation to implement collision detection and random object generation.
+- Understanding the intricacies of Unity's collider system, even when working with non-circular sprites.
+
+### 🚀 Future Enhancements
+Given more time, I would like to:
+- Add a scoring system and end-game mechanics to enhance player engagement.
+- Implement sound effects for actions like collisions and wing flaps using Unity's audio source component.
+- Refine the random pipe generation logic for smoother gameplay.
+- Include additional features like background music, animations, and dynamic levels.
+
+## 🎮 How to Play
+- **Controls**: Press the spacebar to make the bird jump.
+- **Objective**: Navigate the bird through the pipes without colliding with them.
+
+## 🔧 Technologies Used
+- **Game Engine**: Unity
+- **Programming Language**: C# (via Visual Studio 2022)
+- **Assets**: Online images for sprites (bird and pipes)
+
+## 💡 Key Takeaways
+This project marked my first experience with game development and using Unity. It challenged me to learn new skills, from scripting to debugging, and gave me a strong foundation for exploring more advanced game development projects in the future.
+
+---
+
+Thank you for checking out my project! Feel free to explore the code, suggest improvements, or share your thoughts. Let’s connect and build something amazing together!
